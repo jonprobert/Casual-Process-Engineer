@@ -3,7 +3,7 @@ cover: Files/banner.jpg
 description: Useful insights for the chemical or process engineer
 title: Casual Process Engineer
 ---
-![[logo_with_background.png|300]]
+![[logo_with_background.png|200]]
 
 🔗 [[index#How these notes work|How these notes work]] | [[index#Disclaimer|Disclaimer]] | [[index#Updates|Change-log / Roadmap]] | 🔈 [[Announcements]]
 
