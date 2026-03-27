@@ -6,7 +6,7 @@
 > If you are interested in contributing to the project, have content requests, or spot any errors or inconsistencies, then I would greatly appreciate it if you got in touch:
 > ✉️ [contact@casualprocessengineer.com](mailto:contact@casualprocessengineer.com)
 
-NB: Details of new content and updates can be found in the [[Casual Process Engineer#Change-log|change-log]].
+NB: Details of new content and updates can be found in the [[index#Change-log|change-log]].
 
 ---
 
