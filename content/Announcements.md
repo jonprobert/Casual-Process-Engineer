@@ -1,6 +1,6 @@
 # 🔈 Announcements
 
-🔗 [[Casual Process Engineer|Home]]
+🔗 [[index|Home]]
 
 > [!TIP] Contact
 > If you are interested in contributing to the project, have content requests, or spot any errors or inconsistencies, then I would greatly appreciate it if you got in touch:
