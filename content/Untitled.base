@@ -1,0 +1,29 @@
+views:
+  - type: table
+    name: All Tagged Pages
+    filters:
+      and:
+        - file.hasProperty("tags")
+        - '!file.folder.startsWith("Incomplete ideas (DRAFTs)")'
+    order:
+      - file.name
+      - file.folder
+      - file.tags
+    sort:
+      - property: file.folder
+        direction: DESC
+    columnSize:
+      file.name: 281
+  - type: table
+    name: Single Tag Search
+    filters:
+      and:
+        - file.hasProperty("tags")
+        - '!file.folder.startsWith("Incomplete ideas (DRAFTs)")'
+        - file.hasTag("Thermodynamics")
+    order:
+      - file.name
+      - file.folder
+      - file.tags
+    columnSize:
+      file.name: 281
