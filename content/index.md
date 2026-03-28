@@ -16,7 +16,7 @@ No AI tools have been used to create any part of these notes—and never will be
 > [!info]- About me
 > I am a Chartered Chemical Engineer with over a decade of experience in both design and operating environments spanning numerous industries.
 
-> [!TIP] Contact
+> [!question] Contact
 > If you are interested in contributing to the project, have content requests, or spot any errors or inconsistencies, then I would greatly appreciate it if you got in touch:
 > ✉️ [contact@casualprocessengineer.com](mailto:contact@casualprocessengineer.com)
 <!--
