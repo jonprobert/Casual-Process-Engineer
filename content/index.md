@@ -7,9 +7,9 @@ title: Casual Process Engineer
 
 🔗 [[index#How these notes work|How these notes work]] | [[index#Disclaimer|Disclaimer]] | [[index#Updates|Change-log / Roadmap]] | 🔈 [[Announcements]]
 
-Casual Process Engineer is a site I started putting together as a bit of an experiment in June 2023. It is an interlinked collection of (mostly) useful insights for the chemical or process engineer that I've amalgamated in my career so far.
+Casual Process Engineer is a site I started in 2023 as an experiment to bring together my technical notes. It’s an interlinked collection of useful insights and concise topic summaries for chemical and process engineers, drawn from my experience to date.
 
-It is not the intention of these notes to regurgitate text books; others have researched and documented technical topics in great detail already. Instead, this is a place of topic summaries, my own extensions of technical works, links to key resources, and reminders of useful bits-and-pieces that I find myself using over and over again.
+It is not the intention of these notes to regurgitate text books; others have researched and documented technical topics in great detail already. Instead, this is a place of concise topic summaries, my own extensions of technical works, links to key resources, and reminders of useful bits-and-pieces that I find myself using over-and-over again.
 
 No AI tools have been used to create any part of these notes—and never will be.
 
