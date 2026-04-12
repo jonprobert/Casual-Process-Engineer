@@ -92,6 +92,8 @@ You have been warned.
 ### Change-log
 
 > [!NOTE]+ 2026
+> - **April**
+> 	- Note published for [[Heat loss from a pipe|heat loss from a pipe]]. Under #Thermodynamics #Fluids #Design 
 > - **March**
 > 	- Moved site over from Obsidian Publish to Quartz4. See [[Announcements#2026-03-27]].
 
