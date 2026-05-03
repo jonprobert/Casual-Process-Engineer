@@ -11,7 +11,10 @@ Flash calculations are used to determine the equilibrium distribution of compone
 
 The K-value for a component $i$ is expressed using Raoult's Law as:
 
-$$K_i=\frac{y_i}{x_i}=\frac{P_i^\theta}{P}\tag{1}$$
+$$
+K_i=\frac{y_i}{x_i}=\frac{P_i^\theta}{P}
+\tag{1}
+$$
 
 ## Nomenclature
 
@@ -35,33 +38,54 @@ $$K_i=\frac{y_i}{x_i}=\frac{P_i^\theta}{P}\tag{1}$$
 
 To find the point at which liquid just starts to boil at a given temperature we compute where the sum of the vapour fractions reaches 1.
 
-$$\sum_iy_i=\sum_iK_ix_i=1\tag{2}$$
+$$
+\sum_iy_i=\sum_iK_ix_i=1
+\tag{2}
+$$
 
 Where [[Raoult's Law]] applies this gives:
 
-$$\sum_ix_iP_i^\theta=P\tag{3}$$
+$$
+\sum_ix_iP_i^\theta=P
+\tag{3}
+$$
 
  $P_i^\theta$ is a function of temperature (one method to estimate vapour pressure is the [[Antoine Equation]]), so for a given liquid mixture composition at a given temperature we can directly calculate the bubble point pressure.
 
-$$P=x_1P_1^\theta+x_2P_2^\theta+x_3P_3^\theta+\cdots+x_nP_n^\theta\tag{4}$$
+$$
+P=x_1P_1^\theta+x_2P_2^\theta+x_3P_3^\theta+\cdots+x_nP_n^\theta
+\tag{4}
+$$
 
 The vapour composition of each component can then be calculated:
 
-$$y_i=\frac{P_i}{P}\tag{5}$$
+$$
+y_i=\frac{P_i}{P}
+\tag{5}
+$$
 
 # Dew point calculation
 
 To find the point at which vapour just starts to condense at a given temperature we compute where the sum of the liquid fractions reaches 1.
 
-$$\sum_ix_i=\sum_i\frac{y_i}{K_i}=1\tag{6}$$
+$$
+\sum_ix_i=\sum_i\frac{y_i}{K_i}=1
+\tag{6}
+$$
 
 Where [[Raoult's Law]] (substitute $K_i=\frac{P_i^\theta}{P}$) applies this gives:
 
-$$\sum_i\frac{y_i}{P_i^\theta}=\frac{1}{P}\tag{7}$$
+$$
+\sum_i\frac{y_i}{P_i^\theta}=\frac{1}{P}
+\tag{7}
+$$
 
  $P_i^\theta$ is a function of temperature (one method to estimate vapour pressure is the [[Antoine Equation]]), so for a given vapour mixture composition at a given temperature we can directly calculate the dew point pressure.
 
-$$\frac{1}{P}=\frac{y_1}{P_1^\theta}+\frac{y_2}{P_2^\theta}+\frac{y_3}{P_3^\theta}+\cdots+\frac{y_n}{P_n^\theta}\tag{8}$$
+$$
+\frac{1}{P}=\frac{y_1}{P_1^\theta}+\frac{y_2}{P_2^\theta}+\frac{y_3}{P_3^\theta}+\cdots+\frac{y_n}{P_n^\theta}
+\tag{8}
+$$
 
 > [!NOTE]
 > When calculating dew point with non-condensable component $\alpha$ far above its critical point we can assume $x_\alpha=0$, and so $\frac{y_\alpha}{P_\alpha^\theta}$ goes to zero.
@@ -74,23 +98,38 @@ Flash on a stream that splits to a vapour and liquid stream.
 
 The initial material balance on component $i$:
 
-$$Fz_i=Vy_i+Lx_i\tag{9}$$
+$$
+Fz_i=Vy_i+Lx_i
+\tag{9}
+$$
 
 We add a further specification by assuming that the vapour and liquid are at equilibrium and follow [[Raoult's Law]]:
 
-$$y_i=K_ix_i\tag{10}$$
+$$
+y_i=K_ix_i
+\tag{10}
+$$
 ## Pressure-Temperature flash
 
 By substituting equation $(10)$ into $(9)$ and solving to find the liquid mole fraction:
 
-$$Fz_i=VK_ix_i+Lx_i\tag{11}$$
+$$
+Fz_i=VK_ix_i+Lx_i
+\tag{11}
+$$
 Substituting total molar balance $(L=F-V)$:
 
-$$x_i=\frac{z_i}{1+\frac{V}{F}(K_i-1)}\tag{12}$$
+$$
+x_i=\frac{z_i}{1+\frac{V}{F}(K_i-1)}
+\tag{12}
+$$
 
 The vapour split $V/F$ is not known so $x_i$ cannot be directly calculated. Considering that $\sum_i(y_i-x_i)=0$, this results in the Rachford-Rice equation:
 
-$$\sum_i\frac{z_i(K_i-1)}{1+\frac{V}{F}(K_i-1)}=0\tag{13}$$
+$$
+\sum_i\frac{z_i(K_i-1)}{1+\frac{V}{F}(K_i-1)}=0
+\tag{13}
+$$
 
 which is easy enough to solve for the vapour split $V/F$. 
 
@@ -98,7 +137,14 @@ which is easy enough to solve for the vapour split $V/F$.
 
 For an adiabatic flash we must consider the energy balance of the system by maintaining a constant enthalpy:
 
-$$H_{in}=H_{out}\tag{14}$$
-$$Fh_F=Vh_V+Lh_L\tag{15}$$
+$$
+H_{in}=H_{out}
+\tag{14}
+$$
+
+$$
+Fh_F=Vh_V+Lh_L
+\tag{15}
+$$
 
 Approach as per Pressure-Temperature flash above and iterate on $T$ until enthalpy requirement is met.

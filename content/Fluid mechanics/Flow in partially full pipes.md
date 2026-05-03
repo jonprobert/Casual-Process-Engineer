@@ -10,7 +10,10 @@ The [[Manning formula]] is often used to determine flow in partially full pipes 
 ## Inclined pipe capacity
 
 ### Flowrate
-$$Q=-15.95A_f\sqrt{R_hS_f}\log{\left [ {\left ( \frac{k_s}{14.8R_h} \right )^{1.11}}+{\frac{6.9}{4Re_R}} \right ]}\tag{1}$$
+$$
+Q=-15.95A_f\sqrt{R_hS_f}\log{\left [ {\left ( \frac{k_s}{14.8R_h} \right )^{1.11}}+{\frac{6.9}{4Re_R}} \right ]}
+\tag{1}
+$$
 
 Where:
 
@@ -19,7 +22,10 @@ Where:
 - $S_f$ = slope of the pipe ($m/m$)
 
 ### Hydraulic radius
-$$R_h=\frac{A}{P}\tag{2}$$
+$$
+R_h=\frac{A}{P}
+\tag{2}
+$$
 
 Where:
 
@@ -29,7 +35,10 @@ Where:
 
 ### Reynolds number for open channel flow
 
-$$Re_R=\frac{\rho v R_h}{\mu}\tag{3}$$
+$$
+Re_R=\frac{\rho v R_h}{\mu}
+\tag{3}
+$$
 
 Where:
 
@@ -41,7 +50,10 @@ Where:
 
 By [[Darcy-Weisbach]]:
 
-$$\Delta h_{f}=\frac{fLv^2}{2dg}\tag{4}$$
+$$
+\Delta h_{f}=\frac{fLv^2}{2dg}
+\tag{4}
+$$
 
 Where:
 - $\Delta h_{f}$ = head loss due to friction (m)
@@ -53,7 +65,10 @@ Where:
 
 Hydraulic radius is defined as:
 
-$$R_h=\frac{A}{P}\tag{5}$$
+$$
+R_h=\frac{A}{P}
+\tag{5}
+$$
 
 Where:
 
@@ -63,21 +78,33 @@ Where:
 
 So for a full pipe:
 
-$$R_h=\frac{d}{4}\tag{6}$$
+$$
+R_h=\frac{d}{4}
+\tag{6}
+$$
 
 Substituting into equation $(6)$ into $(4)$:
 
-$$\Delta h_{f}=\frac{fLv^2}{8gR_h} \tag{7}$$
+$$
+\Delta h_{f}=\frac{fLv^2}{8gR_h}
+\tag{7}
+$$
 
 Substituting the line slope $S_f=\frac{\Delta h_{f}}{L}$ and rearranging for velocity:
 
-$$v=\frac{1}{\sqrt{f}}\cdot\sqrt{8gR_hS_f}\tag{8}$$
+$$
+v=\frac{1}{\sqrt{f}}\cdot\sqrt{8gR_hS_f}
+\tag{8}
+$$
 
 $f$ can be determined from a number of approximations to the Colebrook-White equation for friction factor (ref. 1, 2). Ref. 4 presents a statistical comparison of a number of these approximations and the	Haaland equation (ref. 4, eqn 13) is selected as combining good accuracy with simplicity of formulation.
 
 It should be noted that the equations as presented in ref. 4 include relative roughness and Reynolds	number in terms of the hydraulic diameter for full pipes $(d)$ rather than the hydraulic radius for part full pipes	$(Rh)$ and need to be re-expressed for use in this application.
 
-$$\frac{1}{\sqrt{f}}=-1.8\log{\left [ {\left ( \frac{\epsilon }{3.7} \right )^{1.11}}+{\frac{6.9}{Re_D}} \right ]}\tag{9}$$
+$$
+\frac{1}{\sqrt{f}}=-1.8\log{\left [ {\left ( \frac{\epsilon }{3.7} \right )^{1.11}}+{\frac{6.9}{Re_D}} \right ]}
+\tag{9}
+$$
 
 Where:
 
@@ -88,7 +115,10 @@ Where:
 
 Reformulating the Haaland equation in terms of hydraulic radius for part full pipes $(R_h)$:
 
-$$\frac{1}{\sqrt{f}}=-1.8\log{\left [ {\left ( \frac{k_s }{14.8R_h} \right )^{1.11}}+{\frac{6.9}{4Re_R}} \right ]}\tag{10}$$
+$$
+\frac{1}{\sqrt{f}}=-1.8\log{\left [ {\left ( \frac{k_s }{14.8R_h} \right )^{1.11}}+{\frac{6.9}{4Re_R}} \right ]}
+\tag{10}
+$$
 
 Where:
 
@@ -96,11 +126,17 @@ Where:
 
 Substituting equation (10) into (8):
 
-$$v=-1.8\log{\left [ {\left ( \frac{k_s }{14.8R_h} \right )^{1.11}}+{\frac{6.9}{4Re_R}} \right ]}\cdot\sqrt{8gR_hS_f}\tag{11}$$
+$$
+v=-1.8\log{\left [ {\left ( \frac{k_s }{14.8R_h} \right )^{1.11}}+{\frac{6.9}{4Re_R}} \right ]}\cdot\sqrt{8gR_hS_f}
+\tag{11}
+$$
 
 Flowrate in the pipe $Q=vA_f$ where $A_f$ is cross sectional flow area ($m^2$) (not the pipe)
 
-$$Q=-15.95A_f\sqrt{R_hS_f}\log{\left [ {\left ( \frac{k_s}{14.8R_h} \right )^{1.11}}+{\frac{6.9}{4Re_R}} \right ]}\tag{12}$$
+$$
+Q=-15.95A_f\sqrt{R_hS_f}\log{\left [ {\left ( \frac{k_s}{14.8R_h} \right )^{1.11}}+{\frac{6.9}{4Re_R}} \right ]}
+\tag{12}
+$$
 
 $R_h$ and $A_f$ can be determined using trig:
 
