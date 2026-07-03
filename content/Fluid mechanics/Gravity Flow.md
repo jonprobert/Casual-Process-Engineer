@@ -26,7 +26,9 @@ Most of the work in this field has been performed on air / water systems and the
 
 The Dimensionless Superficial Volumetric Flux is defined as
 
-$$v^*=\frac{v}{\sqrt{gd}} \tag{1}$$
+$$
+v^*=\frac{v}{\sqrt{gd}} \tag{1}
+$$
 
 Where:
 
@@ -39,11 +41,15 @@ Where:
 
 The Densimetric Pipeline Froude Number is defined as 
 
-$$Fr=\frac{v}{\sqrt{{g}'d}}$$
+$$
+Fr=\frac{v}{\sqrt{{g}'d}}
+$$
 
 Where:
 
-$${g}'=\frac{g\rho_{l}}{\rho_{l}-\rho_{g}}$$
+$$
+{g}'=\frac{g\rho_{l}}{\rho_{l}-\rho_{g}}
+$$
 
 Where:
 
@@ -56,11 +62,15 @@ The dimensionless superficial volumetric flux ($v^*$) is used as the correlating
 
 To ensure self venting flow in vertical pipework or non-flooded flow in side outlets from vessels. Substituting $v^*=0.3$, and $Q=vA=v\frac{\pi d^2}{4}$ into equation $(1)$ we obtain:
 
-$$Q<\frac{3\pi}{40}\sqrt{gd^5} \tag{2a}$$
+$$
+Q<\frac{3\pi}{40}\sqrt{gd^5} \tag{2a}
+$$
 
 NB: $\frac{3\pi}{40}=0.2356...$
 
-$$d>\sqrt[5]{\left ( \frac{40}{3\pi} \right )^{2}}\sqrt[5]{\frac{Q^2}{g}} \tag{2b}$$
+$$
+d>\sqrt[5]{\left ( \frac{40}{3\pi} \right )^{2}}\sqrt[5]{\frac{Q^2}{g}} \tag{2b}
+$$
 
 NB: $\sqrt[5]{\left ( \frac{40}{3\pi} \right )^{2}}=1.7825...$
 
@@ -77,7 +87,9 @@ Where:
 
 Or, more generally, for a target Dimensionless Superficial Volumetric Flux, $v^*$:
 
-$$d=\sqrt[5]{\frac{16}{\pi^2}}\sqrt[5]{\frac{Q^2}{g{v^*}^2}} \tag{2c}$$
+$$
+d=\sqrt[5]{\frac{16}{\pi^2}}\sqrt[5]{\frac{Q^2}{g{v^*}^2}} \tag{2c}
+$$
 
 NB: $\sqrt[5]{\frac{16}{\pi^2}}=1.1014...$
 
@@ -89,7 +101,9 @@ NB: $\sqrt[5]{\frac{16}{\pi^2}}=1.1014...$
 
 To ensure flooded flow from the bottom outlet of a vessel with non-rotational flow. i.e. with a vortex breaker or similar device, the criterion below must be fulfilled.
 
-$$v^*<1.6{\left ( \frac{h}{d} \right )}^2 \tag{4}$$
+$$
+v^*<1.6{\left ( \frac{h}{d} \right )}^2 \tag{4}
+$$
 
 Where:
 
@@ -99,7 +113,9 @@ Where:
 
 Re-arranging we find:
 
-$$h>\frac{\sqrt{20}}{\sqrt{8\pi}}\sqrt[4]{\frac{Q^2}{gd}} \tag{4a}$$
+$$
+h>\frac{\sqrt{20}}{\sqrt{8\pi}}\sqrt[4]{\frac{Q^2}{gd}} \tag{4a}
+$$
 NB: $\frac{\sqrt{20}}{\sqrt{8\pi}}=0.89206...$
 
 Where:
@@ -113,7 +129,9 @@ Where:
 
 To ensure flooded flow from the vertical downwards or upwards outlet of a vessel with rotational flow. i.e. without a vortex breaker or similar device, the criterion below must be fulfilled.
 
-$$1+2.3v^*<\frac{h}{d} \tag{5}$$
+$$
+1+2.3v^*<\frac{h}{d} \tag{5}
+$$
 
 Where:
 
@@ -123,7 +141,9 @@ Where:
 
 Re-arranging we find:
 
-$$h>d+\frac{9.2}{\pi}\sqrt{\frac{Q^2}{gd^3}}\tag{5a}$$
+$$
+h>d+\frac{9.2}{\pi}\sqrt{\frac{Q^2}{gd^3}}\tag{5a}
+$$
 
 NB: $\frac{9.2}{\pi}=2.92845...$
 
@@ -139,7 +159,9 @@ Where:
 To ensure flooded flow from the side outlet of a vessel, the criterion below must be fulfilled. Refs. 7, 8, 9, 13.
 
 
-$$v^*<\sqrt{\frac{2h}{d}} \tag{6}$$
+$$
+v^*<\sqrt{\frac{2h}{d}} \tag{6}
+$$
 
 Where:
 
@@ -149,7 +171,9 @@ Where:
 
 Re-arranging we find:
 
-$$h>\frac{8}{\pi^2}\frac{Q^2}{gd^4}\tag{6a}$$
+$$
+h>\frac{8}{\pi^2}\frac{Q^2}{gd^4}\tag{6a}
+$$
 
 NB: $\frac{8}{\pi^2}=0.81057...$
 

@@ -3,9 +3,9 @@ cover: Files/banner.jpg
 description: Useful insights for the chemical or process engineer
 title: Casual Process Engineer
 ---
-![[logo_with_background.png|200]]
+![[Logo banner.png|200]]
 
-🔗 [[index#How these notes work|How these notes work]] | [[index#Disclaimer|Disclaimer]] | [[index#Updates|Change-log / Roadmap]] | 🔈 [[Announcements]]
+🔗 [[Casual Process Engineer#How these notes work|How these notes work]] | [[Casual Process Engineer#Disclaimer|Disclaimer]] | [[Casual Process Engineer#Updates|Change-log / Roadmap]] | 🔈 [[Announcements]]
 
 Casual Process Engineer is a site I started in 2023 as an experiment to bring together my technical notes. It’s an interlinked collection of useful insights and concise topic summaries for chemical and process engineers, drawn from my experience to date.
 
@@ -92,7 +92,9 @@ You have been warned.
 ### Change-log
 
 > [!NOTE]+ 2026
-> - **April**
+> - **July**
+> 	- Note published on [[Centrifugal pump rundown time|calculation of rundown time for a centrifugal pump]]. Under #Pumps #Fluids 
+>- **April**
 > 	- Note published for [[Heat loss from a pipe|heat loss from a pipe]]. Under #Thermodynamics #Fluids #Design 
 > - **March**
 > 	- Moved site over from Obsidian Publish to Quartz4. See [[Announcements#2026-03-27]].
