@@ -139,7 +139,7 @@ $$
 I_{\mathrm{Total}}\frac{d\omega}{dt}=-\frac{P}{\omega} \tag{9}
 $$
 
-For a centrifugal pump operating under [[affinity laws]], power scales with the cube of rotational speed:
+For a centrifugal pump operating under [[Pump Affinity Laws|the affinity laws]], power scales with the cube of rotational speed:
 
 $$
 P=P_0\left(\frac{\omega}{\omega_0}\right)^3 \tag{10}

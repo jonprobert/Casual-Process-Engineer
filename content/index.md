@@ -93,7 +93,7 @@ You have been warned.
 
 > [!NOTE]+ 2026
 > - **July**
-> 	- Note published on [[Centrifugal pump rundown time|calculation of rundown time for a centrifugal pump]]. Under #Pumps #Fluids 
+> 	- Note published on [[Centrifugal pump rundown time|calculation of rundown time for a centrifugal pump]], and basic supporting page on [[Pump Affinity Laws|affinity laws]]. Both under #Pumps #Fluids 
 >- **April**
 > 	- Note published for [[Heat loss from a pipe|heat loss from a pipe]]. Under #Thermodynamics #Fluids #Design 
 > - **March**
