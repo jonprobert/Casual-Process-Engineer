@@ -61,7 +61,7 @@ The source of these individual terms and limitations are given below.
 
 ### Pump inertia
 
-A linear regression of the two datasets analysed by Thorley give the following estimates of pump inertia for two different datasets.
+A linear regression of the two datasets analysed by *Thorley* gives the following estimates of pump inertia for two different datasets.
 
 A correlation for a wide range of rotodynamic pumps used in the water supply, sewage, process and petro-chemical fields, including horizontal spindle, single and double entry, split-case machines as well
 as vertical spindle borehole and wet-well pumps:
@@ -88,7 +88,7 @@ Full dataset from *Fluid Transients in Pipeline Systems (Thorley)*:
 
 ### Motor inertia
 
-A linear regression of a datasets analysed by Thorley give the following estimate of motor inertia.
+A linear regression of a dataset analysed by *Thorley* gives the following estimate of motor inertia.
 
 $$
 I_{Motor}=118.4\left(\frac{P}{N}\right)^{1.48} \tag{5}
