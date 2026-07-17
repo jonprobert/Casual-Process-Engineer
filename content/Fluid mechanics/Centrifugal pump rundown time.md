@@ -7,7 +7,15 @@ tags:
 
 ## Introduction
 
-The rundown time is the time taken for the pump to decelerate from its normal operating speed to a complete stop after its power supply is lost or the pump is tripped. A longer rundown time maintains flow and discharge head for longer following a trip, reducing the rate of flow drop off and often the magnitude of surge. Conversely short rundown times cause rapid loss of head and potentially leading to larger pressure transients. 
+The rundown time is the time taken for the pump to decelerate from its normal operating speed to a complete stop after its power supply is lost or the pump is tripped. A longer rundown time can maintain flow and discharge head for longer following a trip, reducing the rate of flow drop off and often the magnitude of surge. Conversely short rundown times cause rapid loss of head and potentially leading to larger pressure transients. 
+
+> [!Warning]
+> The pump rundown time estimated below should not be assumed to be synonymous with the time taken for flow in the connected system to stop, or with the duration of the transient following a pump trip. The calculation estimates the decay of pump rotational speed based on a simplified representation of the hydraulic torque acting on the pump. It does not model the transient interaction between the pump, pipeline, valves, fluid inertia, pressure-wave propagation, and other system components.
+> 
+> Consequently, considerable care should be taken if the calculated rundown time is used in assessing pressure surge risk (i.e. screening criteria for detailed surge analysis based on the relationship between surge initiation time and wave reflection time). A pump may continue to deliver flow as its speed decreases, and system flow may continue, decay differently, or even reverse depending on the system and its boundary conditions.
+> 
+> The calculation should therefore be regarded as a **preliminary estimate only**, rather than a substitute for a detailed transient analysis. Dedicated tools such as AFT Impulse can model the hydraulic transient, although they generally require substantially more information about the pump and the wider system.
+> 
 
 Following loss of power the pump continues to deliver flow, but both flow and pump head then decrease as its rotational speed drops. Rundown time depends on pump/motor inertia, hydraulic load, and frictional losses, and is an important parameter in surge assessments.
 
